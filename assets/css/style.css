@@ -10,7 +10,22 @@
     justify-content: center;
     }
 
-    .boxfotos{
+.infoedu{
         display: flex;
         justify-content: space-around;
         margin:3%;}
+
+
+.foto1{
+       whidth:200px;
+       height: 200px;
+       border-radius: 50%;
+       border: 2px solid black
+        }
+       
+.logostrab{
+            whidth:200px;
+            height: 200px;
+            /* border-radius: 10%; */
+            /* border: 2px solid black */
+           }       
