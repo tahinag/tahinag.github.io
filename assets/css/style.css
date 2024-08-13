@@ -9,6 +9,10 @@
     display: flex;
     justify-content: center;
     }
+    
+  h5{ justify-content: center;
+    color:#212529 
+     }  
 
 .infoedu{
         display: flex;
