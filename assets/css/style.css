@@ -27,16 +27,15 @@
        border-radius: 50%;
        border: 2px solid black
         }
-       
-.logostrab{
-            
-            width:200px;
-            height: 200px;
-            border-radius: 10%; 
-            border: 2px solid black;
-            display: flexbox;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5%;
         
-           }       
+.logostrab {         
+    width:100%;
+    height: 200px;
+    align-items: center;
+    object-fit: contain;
+}  
+           
+.card {
+    height: 350px}
+
+.p_edu{display: inline;}
