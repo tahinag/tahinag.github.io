@@ -3,39 +3,50 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: top;
-             }
+}
 
-  h1{ 
+h1{ 
       text-align: center;
       display: flex;
       justify-content: center;
-    }
-  h5{ 
+}
+
+h5{ 
     justify-content: center;
     color:#212529 
-     }   
+}   
 
+.lista{
+    list-style-type: none;
+}
+
+/* sección acerca de mi */
+.foto1{
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid black
+}
+
+
+.card {
+    height: 350px}
+
+
+/* sección educación */
 .infoedu{
         display: flex;
         justify-content: space-around;
         margin:3%;}
 
+.p_edu{display: inline;}
 
-.foto1{
-       width:200px;
-       height: 200px;
-       border-radius: 50%;
-       border: 2px solid black
-        }
-        
-.logostrab {         
+
+/* sección experiencia */
+        .logostrab {         
     width:100%;
     height: 200px;
     align-items: center;
     object-fit: contain;
 }  
            
-.card {
-    height: 350px}
-
-.p_edu{display: inline;}
